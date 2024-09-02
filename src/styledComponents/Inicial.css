@@ -1,0 +1,328 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #FDFDFD, #E9E9E9);
+    color: #000000;
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Configurações da Página Inicial */
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .container-1 {
+    width: 100%;
+    max-width: 1440px;
+    padding: 30px;
+    background: linear-gradient(145deg, #B89746, #D2B469);
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .container-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ajuda, .servicos, .entrar {
+    font-size: 22px;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .ajuda:hover, .servicos:hover, .entrar:hover {
+    color: #FFFFFF;
+    transform: scale(1.1);
+  }
+  
+  .area-cliente {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    background: #000000;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .descricao-area-cliente{
+    color: #afafaf;
+  }
+  
+  .area-cliente:hover {
+    background-color: #1a1a1a;
+    transform: translateY(-5px);
+  }
+  
+  .image-9 {
+    width: 266px;
+    height: 212px;
+    border-radius: 20px 0 0 20px;
+    background: url('../src/img/imageminicial.png') center/cover no-repeat;
+  }
+  
+  .container-2 {
+    padding: 20px;
+  }
+  
+  .area-do-cliente {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  
+  .queremos-que-voc-encontre-todas-as-respostas-que-procura-por-aqui-tudo-de-forma-simples-prtica-agil-do-nosso-jeito-LRI {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+    opacity: 0.5;
+  }
+  
+  
+  .btologin {
+    background-color: #C0A554;
+    color: #000000;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5), 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btologin:hover {
+    background-color: #9e8b4d;
+    transform: translateY(-5px);
+  }
+  
+  .container-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gp-cadastro {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-10 {
+    width: 209px;
+    height: 191px;
+    border-radius: 30px;
+    background: url('../src/img/inicial.png') center/cover no-repeat;
+  }
+  
+  .container-3 {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .container-3:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ainda-nao-possui-conta, .clique-no-icone-abaixo-para-realizar-seu-cadastro {
+    margin-bottom: 20px;
+    opacity: 0.85;
+  }
+  
+  .btoforcad {
+    background-color: #C0A554;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5), 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btoforcad:hover {
+    background-color: #9e8b4d;
+    transform: translateY(-5px);
+  }
+  
+  .cryptocurrency-colorchat {
+    margin: 0 20px;
+  }
+  
+  .rectangle-59 {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(90deg, #C0A554, #000000);
+    margin: 25px auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sobre-nos, .tipos-seguros, .faq, .parceiros, .contato {
+    transition: padding 0.3s ease;
+  }
+  
+  .sobre-nos h2, .tipos-seguros h2, .faq h2, .parceiros h2, .contato h2 {
+    font-size: 32px;
+    color: #C0A554;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .sobre-nos h2::before, .tipos-seguros h2::before,  .faq h2::before, .parceiros h2::before, .contato h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #C0A554;
+    transform: translateX(-50%);
+    transition: width 0.4s ease;
+  }
+  
+  .sobre-nos h2:hover::before, .tipos-seguros h2:hover::before,  .faq h2:hover::before, .parceiros h2:hover::before, .contato h2:hover::before {
+    width: 100%;
+  }
+  
+  .sobre-nos p, .faq-item p, .seguro-card p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    transition: color 0.3s ease;
+  }
+  
+  .seguro-card {
+    background: #FDFDFD;
+    padding: 25px;
+    width: 270px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .seguro-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  .depoimento, .faq-item {
+    background: #FFFFFF;
+    padding: 25px;
+    width: 320px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  
+  /* Contato */
+  .contato {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contato h2 {
+    font-size: 28px;
+    color: #C0A554;
+    margin-bottom: 30px;
+  }
+  
+  .form-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-contato label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .form-contato input, .form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #CCCACA;
+  }
+  
+  .form-contato button {
+    background-color: #C0A554;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .container-5 {
+      flex-direction: row;
+    }
+  
+    .area-cliente {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 25px 40px;
+    }
+  
+    .descricao-area-cliente {
+      text-align: left;
+      margin-top: 0;
+      margin-left: 20px;
+    }
+  
+    .gp-cadastro {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container-4 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .area-do-cliente {
+      font-size: 42px;
+    }
+  
+    .form-contato button {
+      padding: 12px 30px;
+    }
+  }
+  
