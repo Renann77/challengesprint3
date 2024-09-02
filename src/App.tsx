@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './App.css';
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
               </div>
             </div>
             <div className="cryptocurrency-colorchat">
-              <img className="group" src="../img/icone bot.png" alt="Ícone do Bot" />
+              
             </div>
           </div>
         </div>
@@ -57,13 +57,7 @@ function App() {
         {/* Separador */}
         <div className="rectangle-59"></div>
 
-        {/* Sobre Nós */}
-        <section className="sobre-nos">
-          <h2>Sobre Nós</h2>
-          <p>Somos líderes no mercado de seguros de carros, oferecendo soluções personalizadas para garantir sua segurança e
-            tranquilidade nas estradas. Com anos de experiência, nossa missão é proteger você e seu veículo com o que há de
-            melhor em seguros automotivos.</p>
-        </section>
+        
 
         {/* Tipos de Seguros */}
         <section className="tipos-seguros">
@@ -88,24 +82,6 @@ function App() {
           </div>
         </section>
 
-        {/* Depoimentos de Clientes */}
-        <section className="depoimentos">
-          <h2>O Que Nossos Clientes Dizem</h2>
-          <div className="depoimentos-container">
-            <div className="depoimento">
-              <p>"O atendimento foi excepcional e o seguro me deu toda a cobertura que eu precisava! Recomendo para todos!"
-                - João M.</p>
-            </div>
-            <div className="depoimento">
-              <p>"O processo de contratação foi rápido e simples, e o suporte é excelente. Me sinto seguro com eles." -
-                Maria S.</p>
-            </div>
-            <div className="depoimento">
-              <p>"Tive um incidente recentemente e fui muito bem atendido pela equipe. Não poderia estar mais satisfeito!" -
-                Lucas T.</p>
-            </div>
-          </div>
-        </section>
 
         {/* FAQ */}
         <section className="faq">

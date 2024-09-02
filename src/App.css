@@ -72,7 +72,7 @@ body {
   width: 266px;
   height: 212px;
   border-radius: 20px 0 0 20px;
-  background: url('../img/imageminicial.png') center/cover no-repeat;
+  background: url('../src/img/imageminicial.png') center/cover no-repeat;
 }
 
 .container-2 {
@@ -92,6 +92,7 @@ body {
   margin-bottom: 25px;
   opacity: 0.5;
 }
+
 
 .btologin {
   background-color: #C0A554;
@@ -124,7 +125,7 @@ body {
   width: 209px;
   height: 191px;
   border-radius: 30px;
-  background: url('../img/inicial.png') center/cover no-repeat;
+  background: url('../src/img/inicial.png') center/cover no-repeat;
 }
 
 .container-3 {
@@ -175,12 +176,11 @@ body {
   transition: background-color 0.3s ease;
 }
 
-/* Seções de Conteúdo */
-.sobre-nos, .tipos-seguros, .depoimentos, .faq, .parceiros, .contato {
+.sobre-nos, .tipos-seguros, .faq, .parceiros, .contato {
   transition: padding 0.3s ease;
 }
 
-.sobre-nos h2, .tipos-seguros h2, .depoimentos h2, .faq h2, .parceiros h2, .contato h2 {
+.sobre-nos h2, .tipos-seguros h2, .faq h2, .parceiros h2, .contato h2 {
   font-size: 32px;
   color: #C0A554;
   margin-bottom: 20px;
@@ -190,7 +190,7 @@ body {
   letter-spacing: 1.5px;
 }
 
-.sobre-nos h2::before, .tipos-seguros h2::before, .depoimentos h2::before, .faq h2::before, .parceiros h2::before, .contato h2::before {
+.sobre-nos h2::before, .tipos-seguros h2::before,  .faq h2::before, .parceiros h2::before, .contato h2::before {
   content: '';
   position: absolute;
   bottom: -5px;
@@ -202,7 +202,7 @@ body {
   transition: width 0.4s ease;
 }
 
-.sobre-nos h2:hover::before, .tipos-seguros h2:hover::before, .depoimentos h2:hover::before, .faq h2:hover::before, .parceiros h2:hover::before, .contato h2:hover::before {
+.sobre-nos h2:hover::before, .tipos-seguros h2:hover::before,  .faq h2:hover::before, .parceiros h2:hover::before, .contato h2:hover::before {
   width: 100%;
 }
 
@@ -243,10 +243,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.depoimento:hover, .faq-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
-}
+
 
 /* Contato */
 .contato {
@@ -288,4 +285,43 @@ body {
   border: none;
   border-radius: 30px;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .container-5 {
+    flex-direction: row;
+  }
+
+  .area-cliente {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 40px;
+  }
+
+  .descricao-area-cliente {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .gp-cadastro {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-4 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .area-do-cliente {
+    font-size: 42px;
+  }
+
+  .form-contato button {
+    padding: 12px 30px;
+  }
 }
