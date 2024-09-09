@@ -1,28 +1,35 @@
 import React, { useState } from 'react';
-import Header from './components/Headrer';
+import Compra from './components/Compra';
 import DamageReportForm from './components/DamageReportFrom';
-import ReportCard from './components/ReportCard';
+import Header from './components/Headrer';
 import Inicial from './components/Inicial';
-
+import ReportCard from './components/ReportCard';
+import "./index.css";
+ 
+ 
 interface Report {
   vehicle: string;
   damageDescription: string;
 }
-
+ 
 const App: React.FC = () => {
   const [reports, setReports] = useState<Report[]>([]);
-
+ 
   const addReport = (report: Report) => {
     setReports([report, ...reports]);
   };
-
+ 
   return (
-    
-      
-      
-    
+ 
+ 
+ 
+ 
     <div>
-      <Inicial/>
+ 
+      <Inicial />
+ 
+      <Compra />
+ 
       <Header />
       <main style={mainStyle}>
         <DamageReportForm onSubmit={addReport} />
@@ -35,20 +42,20 @@ const App: React.FC = () => {
     </div>
   );
 };
-
-
+ 
+ 
 const mainStyle: React.CSSProperties = {
   padding: '20px',
   maxWidth: '900px',
   margin: 'auto',
 };
-
+ 
 const reportListStyle: React.CSSProperties = {
   marginTop: '20px',
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
   gap: '15px',
 };
-
-
+ 
+ 
 export default App;

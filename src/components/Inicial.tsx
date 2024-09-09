@@ -5,7 +5,7 @@ import '../styledComponents/Inicial.css';
 function Inicial() {
     return (
       <>
-        <div style={{ backgroundColor: '#f0f0f0' }}>
+        <div className='principal'>
   
           <div className="container-1">
             <div className="container-5">
@@ -64,26 +64,24 @@ function Inicial() {
           <section className="tipos-seguros">
             <h2>Nossos Seguros</h2>
             <div className="tipos-seguros-cards">
-              <div className="seguro-card">
+              <div className="seguro-card1">
                 <h3>Seguro Completo</h3>
                 <p>Proteção total para o seu carro contra acidentes, roubos, furtos e danos a terceiros.</p>
               </div>
-              <div className="seguro-card">
+              <div className="seguro-card2">
                 <h3>Seguro Contra Terceiros</h3>
                 <p>Proteção específica para danos causados a outros veículos ou propriedades em acidentes.</p>
               </div>
-              <div className="seguro-card">
+              <div className="seguro-card3">
                 <h3>Seguro Roubo e Furto</h3>
                 <p>Garanta a segurança do seu patrimônio com cobertura em caso de roubo ou furto.</p>
               </div>
-              <div className="seguro-card">
+              <div className="seguro-card4">
                 <h3>Assistência 24h</h3>
                 <p>Assistência completa em casos de emergências, pane elétrica ou mecânica, disponível 24 horas por dia.</p>
               </div>
             </div>
           </section>
-  
-  
         </div>
   
         

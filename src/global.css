@@ -1,21 +1,22 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #061f2c;
-    margin: 0;
-    padding: 0;
-    color: #C0A554;
-  }
+  font-family: 'Roboto', sans-serif;
+  background-color: #061f2c;
+  margin: 0;
+  padding: 0;
+  color: #C0A554;
+
+}
+ 
+h1, h2, p, label {
+  color: #C0A554;
+  margin: 0;
   
-  h1, h2, p, label {
-    color: #C0A554;
-    margin: 0;
-  }
-  
-  input, textarea {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  button:hover {
-    background-color: #b8924b;
-  }
-  
+}
+ 
+input, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+ 
+button:hover {
+  background-color: #b8924b;
+}
