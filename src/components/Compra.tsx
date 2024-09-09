@@ -16,7 +16,7 @@ function addToCart(itemName: string, itemPrice: number): void {
 function updateCart(): void {
     const cartItemsDiv = document.getElementById('cart-items') as HTMLDivElement;
     cartItemsDiv.innerHTML = '';
-    cart.forEach((item, index) => {
+    cart.forEach((item) => {
         cartItemsDiv.innerHTML += `<p>${item.name}: R$ ${item.price.toFixed(2)}</p>`;
     });
     const totalDiv = document.getElementById('total') as HTMLDivElement;
