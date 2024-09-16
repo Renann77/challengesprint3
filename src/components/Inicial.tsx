@@ -20,7 +20,7 @@ function Inicial() {
               </div>
             </div>
   
-            {/* Área do Cliente */}
+          
             <div className="area-cliente">
               <div className="image-9"></div>
               <div className="container-2">
@@ -34,7 +34,7 @@ function Inicial() {
               </div>
             </div>
   
-            {/* Seção de Cadastro */}
+           
             <div className="container-4">
               <div className="gp-cadastro">
                 <div className="image-10"></div>
@@ -55,12 +55,12 @@ function Inicial() {
             </div>
           </div>
   
-          {/* Separador */}
+          
           <div className="rectangle-59"></div>
   
           
   
-          {/* Tipos de Seguros */}
+          
           <section className="tipos-seguros">
             <h2>Nossos Seguros</h2>
             <div className="tipos-seguros-cards">

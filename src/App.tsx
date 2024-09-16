@@ -5,6 +5,7 @@ import Header from './components/Headrer';
 import Inicial from './components/Inicial';
 import ReportCard from './components/ReportCard';
 import "./index.css";
+import Ajuda from './components/Ajuda';
  
  
 interface Report {
@@ -39,6 +40,8 @@ const App: React.FC = () => {
           ))}
         </section>
       </main>
+
+      <Ajuda/>
     </div>
   );
 };
