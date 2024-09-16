@@ -1,3 +1,12 @@
+
+
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #061f2c;
@@ -19,4 +28,43 @@ input, textarea {
  
 button:hover {
   background-color: #b8924b;
+}
+
+
+/* Extra Pequenos Dispositivos (Mobile Pequeno) - 320px a 479px */
+@media (max-width: 479px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #061f2c;
+    margin: 0;
+    padding: 0;
+    color: #C0A554;
+  
+  }
+  /* Estilos para dispositivos com largura de tela máxima de 479px */
+}
+
+/* Dispositivos Pequenos (Mobile) - 480px a 767px */
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Estilos para dispositivos móveis (smartphones) */
+}
+
+/* Dispositivos Médios (Tablets) - 768px a 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets */
+}
+
+/* Dispositivos Médios-Grandes (Tablets/Pequenos Notebooks) - 992px a 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Estilos para pequenos notebooks ou tablets maiores */
+}
+
+/* Dispositivos Grandes (Laptops) - 1200px a 1599px */
+@media (min-width: 1200px) and (max-width: 1599px) {
+  /* Estilos para laptops e desktops padrão */
+}
+
+/* Dispositivos Extra Grandes (Desktops) - 1600px e acima */
+@media (min-width: 1600px) {
+  /* Estilos para telas grandes e monitores ultra-wide */
 }

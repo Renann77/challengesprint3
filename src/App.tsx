@@ -6,6 +6,7 @@ import Inicial from './components/Inicial';
 import ReportCard from './components/ReportCard';
 import "./index.css";
 import Ajuda from './components/Ajuda';
+import Header1 from './components/Header1';
  
  
 interface Report {
@@ -26,12 +27,15 @@ const App: React.FC = () => {
  
  
     <div>
+      
+      <Header1/>
  
       <Inicial />
  
       <Compra />
  
-      <Header />
+      
+
       <main style={mainStyle}>
         <DamageReportForm onSubmit={addReport} />
         <section style={reportListStyle}>
