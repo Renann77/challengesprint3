@@ -1,7 +1,6 @@
 
 import '../styledComponents/Inicial.css'; 
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Cadastro from './Cadastro';
+
 
 function Inicial() {
     return (
@@ -11,13 +10,13 @@ function Inicial() {
           <div className="container-1">
             <div className="container-5">
               <div className="ajuda">
-                <span className="ajuda-text">Ajuda</span>
+                
               </div>
               <div className="servicos">
-                <span className="servicos-text">Serviços</span>
+                
               </div>
               <div className="container">
-                <span className="entrar">Entrar</span>
+            
               </div>
             </div>
   
@@ -30,7 +29,7 @@ function Inicial() {
                   Queremos que você encontre todas as respostas que procura por aqui. Tudo de forma simples, prática e ágil. Do nosso jeito LRI.
                 </div>
                 <div className="container-6">
-                  <a href="./Login.html"><button className="btologin">Login</button></a>
+                  <a href=""><button className="btologin">Login</button></a>
                 </div>
               </div>
             </div>
@@ -90,12 +89,15 @@ function Inicial() {
           </section>
           
         </div>
-  
-        
+
+        <script src=""></script>
+ 
+
+      
       </>
     );
   }
   
-  
+  <script src="src/jscomponents/Compra.js"></script>
 
   export default Inicial;

@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   color: #C0A554;
-
+  overflow-x: hidden;
 }
  
 h1, h2, p, label {

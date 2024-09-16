@@ -14,7 +14,6 @@ import Header1 from './components/Header1';
 
 
 
-import Cadastro from './components/Cadastro'; 
 import Footer from './components/Footer';
 
 
@@ -34,10 +33,12 @@ const App: React.FC = () => {
 
     <>
 
-      
+
+
       <Header1/>
   
       <Inicial />
+      
  
       <Compra />
 
@@ -56,13 +57,13 @@ const App: React.FC = () => {
       <Ajuda/>
 
       <Footer/>
-
+      
  
     </>
    
   );
 };
- 
+
  
 const mainStyle: React.CSSProperties = {
   padding: '20px',

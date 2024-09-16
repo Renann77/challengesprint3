@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@
     text-align: center;
   }
   
-  /* Configurações da Página Inicial */
+
   .home-page {
     display: flex;
     flex-direction: column;

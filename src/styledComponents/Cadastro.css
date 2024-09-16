@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #061f2c;
@@ -11,7 +11,7 @@ body {
     height: 100vh;
   }
   
-  /* Cartão de cadastro */
+
   .card {
     background-color: #ffffff;
     color: #061f2c;
@@ -39,7 +39,7 @@ body {
     padding: 20px;
   }
   
-  /* Formulário */
+
   .form-group {
     margin-bottom: 15px;
   }
@@ -68,14 +68,14 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
   
-  /* Mensagem de erro */
+
   div[style*="color: red"] {
     margin-top: 10px;
     color: #FF0000;
     font-size: 0.9rem;
   }
   
-  /* Botão de Envio */
+
   .btn {
     background-color: #C0A554;
     color: #061f2c;

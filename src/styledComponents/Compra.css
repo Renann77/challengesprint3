@@ -1,11 +1,11 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos globais */
+
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #1d1f20, #2c3e50);
@@ -14,7 +14,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Animação para a logo */
+
 .logoimg {
     width: 300px;
     height: 300px;
@@ -29,7 +29,7 @@ body {
     box-shadow: 0 16px 32px rgba(243, 213, 132, 0.5);
 }
 
-/* Animação para o carrinho */
+
 .carrinho {
     width: 50px;
     height: 50px;
@@ -46,7 +46,7 @@ body {
     background-color: #e3c16e;
 }
 
-/* Títulos */
+
 h1, h2, h3 {
     color: #C0A554;
     text-transform: uppercase;
@@ -66,7 +66,7 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size:larger;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -75,7 +75,7 @@ header h1:hover {
     color: #f3d584;
 }
 
-/* Navegação */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -109,7 +109,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
-/* Conteúdo principal */
+
 main {
     display: flex;
     justify-content: space-between;
@@ -118,7 +118,7 @@ main {
     gap: 20px;
 }
 
-/* Produtos */
+
 #products {
     flex: 3;
     background: linear-gradient(135deg, #061f2c, #0c3a4a);
@@ -162,7 +162,7 @@ main {
     margin-bottom: 15px;
 }
 
-/* Botões */
+
 button {
     background-color: #C0A554;
     color: #1d1f20;
@@ -182,7 +182,7 @@ button:hover {
     box-shadow: 0 8px 16px rgba(224, 186, 94, 0.5);
 }
 
-/* Carrinho */
+
 #cart {
     flex: 1;
     background: linear-gradient(135deg, #2b2b2b, #3a3a3a);
@@ -204,7 +204,7 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* Rodapé */
+
 footer {
     background: linear-gradient(135deg, #333, #444);
     padding: 20px;
@@ -218,7 +218,7 @@ footer:hover {
     background-color: #555;
 }
 
-/* Animações */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -230,7 +230,7 @@ footer:hover {
     }
 }
 
-/* Responsividade */
+
 @media screen and (max-width: 768px) {
     main {
         flex-direction: column;

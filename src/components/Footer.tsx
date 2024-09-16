@@ -13,7 +13,15 @@ const Footer: React.FC = () => {
             Faculdade De Informatica e Administração Paulista (FIAP).
             Estamos trabalhando em um projeto para relatorio automatico de danos em veiculos, 
             em parceria com a Porto Seguro.
-          </p>
+        </p>
+
+        
+            <p>Luis Lima RM:556904</p>
+            <p>Renan Dorneles RM:557820</p>
+            <p>Igor Dias Barrocal RM:555217</p>
+
+         
+          
         </div>
 
        

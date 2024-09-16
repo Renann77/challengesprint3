@@ -40,7 +40,7 @@ const DamageReportForm: React.FC<DamageReportFormProps> = ({ onSubmit }) => {
           placeholder="Descrição de danos"
         />
       </div>
-      <button type="submit" style={buttonStyle}>Add Report</button>
+      <button type="submit" style={buttonStyle}>Reportar</button>
     </form>
   );
 };

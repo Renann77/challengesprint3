@@ -1,5 +1,5 @@
 .footer {
-    background-color: #061f2c; /* Cor de fundo do footer */
+    background-color: #061f2c; 
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -19,7 +19,7 @@
   }
   
   .footer-section h4 {
-    color: #C0A554; /* Cor do título */
+    color: #C0A554; 
     margin-bottom: 10px;
   }
   
