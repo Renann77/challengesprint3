@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
 import Compra from './components/Compra';
 import DamageReportForm from './components/DamageReportFrom';
-import Header from './components/Headrer';
+
 import Inicial from './components/Inicial';
 import ReportCard from './components/ReportCard';
 import "./index.css";
 import Ajuda from './components/Ajuda';
 import Header1 from './components/Header1';
- 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Cadastro from './components/Cadastro'; // A página de cadastro
+import Footer from './components/Footer';
+
+
  
 interface Report {
   vehicle: string;
@@ -20,6 +24,8 @@ const App: React.FC = () => {
   const addReport = (report: Report) => {
     setReports([report, ...reports]);
   };
+
+  
  
   return (
  
@@ -29,10 +35,18 @@ const App: React.FC = () => {
     <div>
       
       <Header1/>
+      
  
       <Inicial />
  
       <Compra />
+
+      <Router>
+      <Routes>
+        
+        <Route path="/cadastro" element={<Cadastro />} />
+      </Routes>
+    </Router>
  
       
 
@@ -46,7 +60,12 @@ const App: React.FC = () => {
       </main>
 
       <Ajuda/>
+
+      <Footer/>
+
+ 
     </div>
+   
   );
 };
  

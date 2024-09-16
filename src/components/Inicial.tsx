@@ -1,6 +1,8 @@
 
 import '../styledComponents/Inicial.css'; 
-
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Cadastro from './Cadastro';
+import Login from './Login';
 
 function Inicial() {
     return (
@@ -28,9 +30,26 @@ function Inicial() {
                 <div className="descricao-area-cliente">
                   Queremos que você encontre todas as respostas que procura por aqui. Tudo de forma simples, prática e ágil. Do nosso jeito LRI.
                 </div>
-                <div className="container-6">
-                  <a href="./Login.html"><button className="btologin">Login</button></a>
-                </div>
+
+              
+                <Router>
+      <div>
+        
+        <nav className="container-6">
+      
+          <Link className="btologin"  to="/Login">Login</Link>
+        </nav>
+
+      
+        <Routes>
+        
+          <Route  path="/Login" element={<Login/>} />
+        </Routes>
+      </div>
+    </Router>
+
+
+               
               </div>
             </div>
   
@@ -43,10 +62,23 @@ function Inicial() {
                   <div className="clique-no-icone-abaixo-para-realizar-seu-cadastro">
                     Clique no ícone abaixo para realizar seu cadastro!
                   </div>
-                  <div className="container-7">
-                    <span className="cadastrar"></span>
-                    <a href="./Cadastro.html"><button className="btoforcad">Cadastrar</button></a>
-                  </div>
+
+                  <Router>
+      <div>
+        
+        <nav className="cadastrar">
+      
+          <Link className="btoforcad"  to="/Cadastro">Cadastro</Link>
+        </nav>
+
+      
+        <Routes>
+        
+          <Route  path="/Cadastro" element={<Cadastro/>} />
+        </Routes>
+      </div>
+    </Router>
+                 
                 </div>
               </div>
               <div className="cryptocurrency-colorchat">
@@ -82,6 +114,7 @@ function Inicial() {
               </div>
             </div>
           </section>
+          
         </div>
   
         
@@ -89,4 +122,6 @@ function Inicial() {
     );
   }
   
+  
+
   export default Inicial;

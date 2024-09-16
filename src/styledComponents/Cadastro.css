@@ -1,0 +1,97 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #061f2c;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Cartão de cadastro */
+  .card {
+    background-color: #ffffff;
+    color: #061f2c;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #061f2c;
+    color: #ffffff;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+  }
+  
+  .text-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Formulário */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C0A554;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #061f2c;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Mensagem de erro */
+  div[style*="color: red"] {
+    margin-top: 10px;
+    color: #FF0000;
+    font-size: 0.9rem;
+  }
+  
+  /* Botão de Envio */
+  .btn {
+    background-color: #C0A554;
+    color: #061f2c;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #a68945;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  
