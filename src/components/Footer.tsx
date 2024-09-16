@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h4>About Us</h4>
+          <h4>Sobre Nós</h4>
           <p>
             Nós fazemos parte de um grupo de estudantes da 
             Faculdade De Informatica e Administração Paulista (FIAP).
@@ -16,15 +16,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="footer-section">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="/Inicial">Home</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/about">About Us</a></li>
-          </ul>
-        </div>
+       
 
         <div className="footer-section">
           <h4>Contato</h4>
@@ -34,7 +26,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="footer-section social-media">
-          <h4>Follow Us</h4>
+          <h4>Siga-nos</h4>
           <a href="https://facebook.com" target="_blank" rel="noreferrer">
             <i className="fab fa-facebook"></i>
           </a>
