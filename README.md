@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+Bem-vindo ao nosso site, especializado em produtos e serviços automotivos!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aqui você encontrará tudo o que precisa para cuidar do seu veículo, desde a compra de peças até a contratação de seguros personalizados. Nosso objetivo é oferecer uma experiência de navegação rápida e eficiente para facilitar o processo de compra e garantir a proteção do seu automóvel. Abaixo, destacamos os principais serviços disponíveis:
 
-Currently, two official plugins are available:
+ Loja de Peças Automotivas:
+Explore nossa seleção de peças de alta qualidade para seu carro, incluindo itens como pastilhas de freio, óleos, e muito mais. Adicionar produtos ao carrinho é simples e rápido. Ao finalizar a compra, você terá acesso a métodos de pagamento seguros e entrega ágil.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Relate Danos ao Seu Veículo:
+Em caso de qualquer dano no seu carro, você pode utilizar nossa ferramenta para informar o problema e receber suporte imediato. Essa funcionalidade permite que você seja rapidamente atendido pela nossa equipe de especialistas.
 
-## Expanding the ESLint configuration
+ Nossos Seguros:
+Proteja seu veículo com uma das nossas opções de seguro automotivo. Oferecemos uma gama de coberturas, como:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Seguro completo
+Seguro contra terceiros
+Assistência 24 horas Escolha a opção que melhor atende às suas necessidades, com preços competitivos e cobertura de qualidade.
 
-- Configure the top-level `parserOptions` property like this:
+ Área do Cliente:
+Registre-se ou faça login para acessar a Área do Cliente, onde você pode gerenciar suas informações pessoais, acompanhar pedidos, revisar seguros contratados e solicitar novos serviços. Tudo isso de forma simples e segura.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+ Carrinho de Compras:
+Ao adicionar os produtos desejados ao carrinho, você pode facilmente revisá-los antes de concluir sua compra. Oferecemos total transparência com relação aos preços e taxas, para que você finalize a compra com tranquilidade.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Nosso site foi desenvolvido para atender todas as suas necessidades automotivas em um só lugar, com uma interface intuitiva e suporte especializado. Agradecemos por sua visita e estamos prontos para ajudá-lo com o que for necessário!
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
